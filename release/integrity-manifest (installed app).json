@@ -1,0 +1,21 @@
+{
+  "Product": "Student Timer Clock",
+  "Version": "0.3",
+  "Created": "2026-11-06T03:02:57Z",
+  "Files": [
+    {
+      "Path": "StudentTimerClock.exe",
+      "Size": 62495728,
+      "Sha256": "5156EB1E794AA2A9CA609C28FFC71DC452E445D9BDE249DC3034D3563CDA977B"
+    }
+  ],
+  "AllowedExtraFiles": [
+    "Uninstall.exe",
+    "terms.txt",
+    "integrity.json",
+    "integrity.sig",
+    "portable.txt",
+    "README.txt",
+    "Student Timer Clock Root CA.cer"
+  ]
+}

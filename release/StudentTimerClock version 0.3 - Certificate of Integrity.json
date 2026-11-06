@@ -1,0 +1,93 @@
+{
+  "record": "STC-REL-0.3-20261106-5156EB1E",
+  "product": "Student Timer Clock",
+  "version": "0.3",
+  "issued_utc": "2026-11-06T03:08:17.394584+00:00",
+  "core_executable_sha256": "5156EB1E794AA2A9CA609C28FFC71DC452E445D9BDE249DC3034D3563CDA977B",
+  "files": {
+    "StudentTimerClock.exe": {
+      "sha256": "5156EB1E794AA2A9CA609C28FFC71DC452E445D9BDE249DC3034D3563CDA977B",
+      "size": 62495728
+    },
+    "StudentTimerClock version 0.3.exe": {
+      "sha256": "33AC8A741A4B5402AD38665294BBF7D60ED463D7E627E0BBFD7E7E26B6FD5717",
+      "size": 56351624
+    },
+    "StudentTimerClock.exe (portable)": {
+      "sha256": "78C4CF14AD86D2BCC73B6CBE93877BB25D847EC4A8BB8C02859B3E48F403A3BA",
+      "size": 1065800
+    },
+    "StudentTimerClock version 0.3 (portable, needs NET 8).zip": {
+      "sha256": "9A06CF43551B3DF4878BA944804CA219D22EE1E70D5FDA30805D28F16C5F9DEE",
+      "size": 541758
+    },
+    "integrity.json (installed)": {
+      "sha256": "9C460567A38538F6A2E2AA8598E740DB0DD5DDBCC702B7A2EA6F3037F1F015A1",
+      "size": 458
+    },
+    "Student Timer Clock Root CA.cer": {
+      "sha256": "F4357B03268B927B4B09C38E35AD58CE1625B764E65C861999A2E027E47DEA3B",
+      "size": 1461
+    },
+    "Student Timer Clock Code Signing.cer": {
+      "sha256": "9FAFAC5DC3576A11C7E736177A84212D56EC2BCEF76FE5E61D31FFC073DE7FDD",
+      "size": 1406
+    }
+  },
+  "signing_certificate": {
+    "subject": "CN=Student Timer Clock Code Signing,OU=Release Engineering,O=Student Timer Clock,L=Cairo,C=EG",
+    "issuer": "CN=Student Timer Clock Root CA,OU=Release Engineering,O=Student Timer Clock,C=EG",
+    "serial": "6E4948A4CB14F78FFF17CAAB8AB0BD7FB38B7FD7",
+    "from": "06 November 2026, 02:33:48 UTC",
+    "to": "05 November 2031, 02:33:48 UTC",
+    "key": "RSA 3072-bit",
+    "sigalg": "SHA256 with RSA",
+    "ku": "Digital Signature",
+    "eku": "Code Signing (1.3.6.1.5.5.7.3.3)",
+    "bc": "End entity (not a CA)",
+    "sha1": "DDAA717FD6468B4F9BF2E736077AE9B54BA2B2CD",
+    "sha256": "9FAFAC5DC3576A11C7E736177A84212D56EC2BCEF76FE5E61D31FFC073DE7FDD",
+    "self_signed": false
+  },
+  "root_ca": {
+    "subject": "CN=Student Timer Clock Root CA,OU=Release Engineering,O=Student Timer Clock,C=EG",
+    "issuer": "CN=Student Timer Clock Root CA,OU=Release Engineering,O=Student Timer Clock,C=EG",
+    "serial": "6CC2A3DB24BB72CB4730D17D87E2194D9A9DA303",
+    "from": "06 November 2026, 02:33:48 UTC",
+    "to": "03 November 2036, 02:33:48 UTC",
+    "key": "RSA 4096-bit",
+    "sigalg": "SHA256 with RSA",
+    "ku": "Key Cert Sign, Crl Sign",
+    "eku": "-",
+    "bc": "CA, path length 0",
+    "sha1": "02F998CDD8E1804C8BEC0FC0075617133689B90A",
+    "sha256": "F4357B03268B927B4B09C38E35AD58CE1625B764E65C861999A2E027E47DEA3B",
+    "self_signed": true
+  },
+  "signatures": {
+    "core": {
+      "digest": "6C9722F2E3FEB82F3DEB380925FA9E099008D7BCB69F5D9148F1517646835AE2",
+      "alg": "SHA256",
+      "signing_time": "Nov  6 03:02:56 2026 GMT",
+      "ts_time": "Nov  6 03:02:56 2026 GMT",
+      "tsa": "/C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1",
+      "ok": true
+    },
+    "installer": {
+      "digest": "08F8C0EE15E2B710FE5BB0B237046FB1A246978429147B97DD5E946EBB1EB67F",
+      "alg": "SHA256",
+      "signing_time": "Nov  6 03:03:36 2026 GMT",
+      "ts_time": "Nov  6 03:03:36 2026 GMT",
+      "tsa": "/C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1",
+      "ok": true
+    },
+    "portable": {
+      "digest": "AAB0663C8B4CDF37ACE4B0F0063C839BC1392C634D1EC1C7B8142D3842A26821",
+      "alg": "SHA256",
+      "signing_time": "Nov  6 03:02:56 2026 GMT",
+      "ts_time": "Nov  6 03:02:56 2026 GMT",
+      "tsa": "/C=US/O=DigiCert, Inc./CN=DigiCert Trusted G4 TimeStamping RSA4096 SHA256 2025 CA1",
+      "ok": true
+    }
+  }
+}
