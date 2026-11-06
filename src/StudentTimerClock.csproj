@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <AssemblyName>StudentTimerClock</AssemblyName>
+    <RootNamespace>StudentTimerClock</RootNamespace>
+    <Product>Student Timer Clock</Product>
+    <Version>0.3.0</Version>
+    <FileVersion>0.3.0.0</FileVersion>
+    <AssemblyVersion>0.3.0.0</AssemblyVersion>
+    <InformationalVersion>0.3</InformationalVersion>
+    <Company>Student Timer Clock</Company>
+    <AssemblyTitle>Student Timer Clock</AssemblyTitle>
+    <Description>Student Timer Clock - timers, stopwatches, desktop widgets and study statistics</Description>
+    <Copyright>2026</Copyright>
+    <NoWarn>CA1416;WFO1000;WFAC010</NoWarn>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <!-- hardening: no managed startup hooks (DOTNET_STARTUP_HOOKS code injection), deterministic build -->
+    <StartupHookSupport>false</StartupHookSupport>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=C:\src\StudentTimerClock</PathMap>
+  </PropertyGroup>
+  <!-- release builds (scripts/build-release.sh) pass -p:IntegrityEnforced=true -->
+  <PropertyGroup Condition="'$(IntegrityEnforced)'=='true'">
+    <DefineConstants>$(DefineConstants);INTEGRITY_ENFORCED</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="8.0.2" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="app.ico" LogicalName="app.ico" />
+    <EmbeddedResource Include="..\installer\terms.txt" LogicalName="terms.txt" />
+  </ItemGroup>
+</Project>

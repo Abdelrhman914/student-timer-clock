@@ -1,0 +1,36 @@
+STUDENT TIMER CLOCK - TERMS AND CONDITIONS OF USE
+Version 0.3
+
+Please read these terms carefully. By ticking "I accept the terms and conditions" and installing or using Student Timer Clock ("the Software") you agree to them. If you do not agree, click Cancel and do not install or use the Software.
+
+1. LICENCE
+You may install and use the Software free of charge on any number of computers that you own or are allowed to use, for personal, school, teaching and other non-commercial purposes. You may not sell the Software, rent it out, or present it as your own work.
+
+2. WHAT THE SOFTWARE DOES
+Student Timer Clock is a timer, countdown and stopwatch program. It can show floating widgets on your desktop, record how long you spend on activities, and run "When done" actions that you set up yourself.
+
+3. START WITH WINDOWS
+By default the installer sets the Software to start automatically when you sign in to Windows, so your timers and reminders keep working. You can turn this off at any time: during installation (untick "Start automatically with Windows"), in the program under File > Settings > "Start with Windows", or in the Windows Task Manager (Startup apps).
+
+4. AUTOMATIC ACTIONS
+Timers can be set up to run programs, open web pages, end processes, press keys, lock the computer, sign out, restart, sleep, hibernate or shut down the computer. These actions only happen when YOU add them to a timer. Restart / shut down / sign out can close other programs and you may lose work that is not saved. You are responsible for the actions you configure. By default a 30 second countdown lets you cancel power actions.
+
+5. YOUR DATA AND PRIVACY
+All your timers, stopwatches, laps and statistics are stored only on this computer, in your user profile (%APPDATA%\StudentTimerClock). The Software does not collect, send or sell any personal information, contains no advertising and does not need an internet connection. When you uninstall you can choose to keep or delete this data.
+
+6. NO WARRANTY
+The Software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to fitness for a particular purpose. Do not rely on the Software as the only reminder for anything critical such as medication, exams, safety or legal deadlines. Timing can be affected by the computer being turned off, asleep, or under heavy load.
+
+7. LIMITATION OF LIABILITY
+To the maximum extent permitted by law, the authors are not liable for any damage or loss (including lost data, lost work, missed appointments or missed exams) arising from the use of or inability to use the Software.
+
+8. UPDATES AND CHANGES
+This is an early version (0.3). Features may change in future versions. These terms may be updated with new versions of the Software.
+
+9. INTEGRITY PROTECTION AND SECURITY
+The Software is digitally signed and checks its own digital signature and SHA-256 fingerprint when it starts and regularly while it runs. If it detects that its files were modified, that unknown files were placed in its program folder, or that foreign code was injected into it, it records the event in a local security log (%APPDATA%\StudentTimerClock\security.log), informs you and closes itself. Your data is not changed or deleted when this happens; reinstall the Software from the official installer. You may not modify, patch, re-sign or redistribute altered copies of the Software. "When done" actions found in backups or in data files that were changed outside the Software are blocked until you confirm them. These checks run only on your computer and send nothing over the internet.
+
+10. UNINSTALLING
+You can remove the Software at any time from Windows Settings > Apps > Installed apps, or with "Uninstall Student Timer Clock" in the Start menu. This also removes the automatic start entry.
+
+By ticking the box below you confirm that you have read, understood and accepted these terms and conditions.
