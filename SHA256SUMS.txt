@@ -1,5 +1,0 @@
-33ac8a741a4b5402ad38665294bbf7d60ed463d7e627e0bbfd7e7e26b6fd5717  StudentTimerClock version 0.3.exe
-9a06cf43551b3df4878ba944804ca219d22ee1e70d5fda30805d28f16c5f9dee  StudentTimerClock version 0.3 (portable, needs NET 8).zip
-f4357b03268b927b4b09c38e35ad58ce1625b764e65c861999a2e027e47dea3b  Student Timer Clock Root CA.cer
-9fafac5dc3576a11c7e736177a84212d56ec2bcef76fe5e61d31ffc073de7fdd  Student Timer Clock Code Signing.cer
-3c5fd2ea330a02b4df5ed14827330fa36bff392eff2b50db1f7f83d659242a61  StudentTimerClock version 0.3 - Certificate of Integrity.pdf
